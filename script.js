@@ -27,7 +27,7 @@ function preload() {
     this.load.image('ground', 'platform.png');
     this.load.image('star', 'star.png');
     this.load.image('bomb', 'bomb.png');
-    this.load.spritesheet('dude', 'assets/dude.png', {frameWidth: 32, frameHeight: 48}); 
+    this.load.spritesheet('dude', 'dude.png', {frameWidth: 32, frameHeight: 48}); 
 }
 
 function create() {
